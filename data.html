@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Saved Bank Cards</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <style type="text/css">
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: -webkit-flex;
+            -webkit-align-items: center;
+            -webkit-justify-content: center;
+            background-image: linear-gradient(to right top, #a2beeb, #8ecfee, #8edde5, #a4e7d5, #c7eec7);
+            flex-direction: column;
+            -webkit-flex-direction: column;
+        }
+
+        .saved-card {
+            border: 2px solid #333;
+            padding: 20px;
+            margin-bottom: 20px;
+            width: 300px;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        .card-info {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Credit Card Details</h1>
+
+    <div class="saved-card">
+        <div class="card-info">
+            <strong>Card holder:</strong> Abhishek kumar
+        </div>
+        <div class="card-info">
+            <strong>Card number:</strong> **** **** **** 1234
+        </div>
+        <div class="card-info">
+            <strong>Expires:</strong> 12/27
+        </div>
+    </div>
+
+    <div class="saved-card">
+        <div class="card-info">
+            <strong>Card holder:</strong> Aadn
+        </div>
+        <div class="card-info">
+            <strong>Card number:</strong> **** **** **** 5678
+        </div>
+        <div class="card-info">
+            <strong>Expires:</strong> 09/26
+        </div>
+    </div>
+
+    <button onclick="goBack()" style="margin-top: 20px;">Back</button>
+
+    <script>
+        function goBack() {
+            window.location.href = "main.html";   // Navigate back to the main.html page
+        }
+    </script>
+
+</body>
+
+</html>

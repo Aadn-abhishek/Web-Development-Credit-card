@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.home_body {
+    background-image: url('images/bg-6.jpg'); /* Add the path to your background image here */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.home-header, .main-header {
+    
+    display: flex;
+    align-items: center; 
+    background-color: rgb(38 31 31 / 70%);
+    color: white;
+    position: sticky;
+    top: 0;
+    padding: 15px 20px;
+    z-index: 1;
+}
+#logo{
+    margin-top: auto;
+    height: 50px;
+    width: 100px;
+}
+#search_bar {
+    margin-left: 70px; /*Add some margin to separate it from the logo*/
+    padding: 5px 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Set a specific width for the input */
+}
+
+#search_button {
+    margin-left: 15px;
+    padding: 5px 10px; /*Add padding for better appearance*/
+    border: 1px solid #007bff; /* Add a border with a specific color */
+    background-color: #007bff; /* Add a background color */
+    color: white; /* Set text color to white */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    width: 70px;
+    height: 27px;
+}
+#header_nav{
+    margin-left: 470px;  
+    column-gap: 50px; 
+}
+.home-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto; /* Center the content */
+    max-width: 600px;
+    text-align: center;
+}
+
+.button {
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 10px;
+    margin-top: 17px;
+
+    color: white;
+    text-decoration: none;
+}
+
+---------------------------------------------------------------------------
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.main_body {
+    background-image: url('images/bg-9.jpg'); /* Add the path to your background image here */
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#main_logo{
+    margin-top: auto;
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+#search_bar_main {
+    margin-left: 70px; /*Add some margin to separate it from the logo*/
+    padding: 5px 10px; /* Add padding for better appearance */
+    border: 1px solid #ccc; /* Add a border for better visibility */
+    border-radius: 5px; /* Add rounded corners */
+    width: 200px; /* Set a specific width for the input */
+}
+
+#search_button_main {
+    margin-left: 15px;
+    padding: 5px 10px; /*Add padding for better appearance*/
+    border: 1px solid #007bff; /* Add a border with a specific color */
+    background-color: #007bff; /* Add a background color */
+    color: white; /* Set text color to white */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+    width: 70px;
+    height: 27px;
+}
+.main_login{
+    /*  */
+    padding-right: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.main-content {
+    background-color: rgba(255, 255, 255, 0.7); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px auto; /* Center the content */
+    max-width: 600px;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
